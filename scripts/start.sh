@@ -1,2 +1,2 @@
 #!/bin/bash
-npm start &
+cd /var/lib/app && npm start &
