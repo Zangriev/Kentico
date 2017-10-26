@@ -3,9 +3,13 @@ os: linux
 hooks:
   Install:
     - location: scripts/install.sh
+      timeout: 3600
+      runas: root
   ApplicationStart:
     - location: scripts/start.sh
       timeout: 3600
+      runas: root
   ValidateService:
     - location: scripts/postconf.sh
       timeout: 3600
+      runas: root
