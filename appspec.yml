@@ -1,11 +1,10 @@
 version: 0.0
 os: linux
 hooks:
-  Install:
+  ApplicationStart:
     - location: scripts/install.sh
       timeout: 3600
       runas: root
-  ApplicationStart:
     - location: scripts/start.sh
       timeout: 3600
       runas: root
