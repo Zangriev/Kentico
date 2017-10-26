@@ -2,7 +2,10 @@ version: 0.0
 os: linux
 hooks:
   Install:
-    - location: ./install.sh
+    - location: scripts/install.sh
   ApplicationStart:
-    - location: ./start.sh
+    - location: scripts/start.sh
+      timeout: 3600
+  ValidateService:
+    - location: scripts/postconf.sh
       timeout: 3600
