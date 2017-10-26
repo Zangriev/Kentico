@@ -1,1 +1,2 @@
-npm install > /dev/null 2> /dev/null < /dev/null &
+#!/bin/bash
+npm install

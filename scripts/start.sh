@@ -1,1 +1,2 @@
-npm start > /dev/null 2> /dev/null < /dev/null &
+#!/bin/bash
+npm start
