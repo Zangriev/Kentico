@@ -1,2 +1,4 @@
 #!/bin/bash
-npm start
+
+cd ~/app
+npm start &
