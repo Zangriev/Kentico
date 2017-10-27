@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /var/lib/app && npm start &
+cd /var/lib/app && slc start
