@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /var/lib/app && slc start
+cd /var/lib/app && forever start "npm start" .
